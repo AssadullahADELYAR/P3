@@ -366,6 +366,11 @@ a:hover {
     z-index: 2;
 }
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .col-sm-4 .footer-title {
     display: inline-block;
     color: #fff;
@@ -736,6 +741,8 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-around;
     max-width: 400px;
     margin: 50px auto 20px auto;
     font-size: 32px;
@@ -1123,6 +1130,19 @@ h4 {
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
+        text-align: center;
+    }
+
+    .bg-atlanta-20made-20sign {
+        background-image: url(img/bg-blue-mobile.jpg);
+    }
+
+    .bg-atlanta-20made-20sign-20orange {
+        background-image: url(img/bg-orange-mobile.jpg);
+    }
+
+    .footer-content {
+        flex-direction: column;
         text-align: center;
     }
 }
