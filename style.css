@@ -882,6 +882,39 @@ h4 {
     background-image: url("img/bg-orange.jpg");
 }
 
+.strong {
+    font-weight: bold;
+}
+
+.quote {
+    font-style: italic;
+    line-height: 1;
+}
+
+.quote::before {
+    content: open-quote;
+    font-size: 32px;
+    color: #656565;
+}
+
+.quote::after {
+    content: close-quote;
+    font-size: 32px;
+    color: #656565;
+}
+
+#bloc-2-services p.quote-author {
+    text-align: right;
+    font-size: 14px;
+}
+
+p.tc-white,
+p.white {
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
