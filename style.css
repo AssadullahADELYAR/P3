@@ -9,6 +9,7 @@ body {
 
 .logo {
     height: 40px;
+    width: auto;
 }
 
 a,
@@ -387,6 +388,7 @@ a:hover {
 
 .col-sm-4 ul li {
     list-style: none;
+    padding: 3px 0;
 }
 
 .col-sm-4 ul li a {
@@ -563,11 +565,16 @@ button {
 
 .scrollToTop span {
     margin-top: 6px;
+
 }
 
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+}
+
+span.fa-chevron-up {
+    color: #fff;
 }
 
 a[data-lightbox] {
